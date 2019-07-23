@@ -19,7 +19,7 @@ description: "As an Office 365 global administrator, you can use Attack Simulato
 
 # Attack Simulator in Office 365
 
-**Summary** If you are an Office 365 global administrator or a security administrator and your organization has [Office 365 Threat Investigation and Response capabilities](office-365-ti.md), you can use Attack Simulator to run realistic attack scenarios in your organization. This can help you identify and find vulnerable users before a real attack impacts your bottom line. Read this article to learn more.
+**Summary** If you are an Office 365 global administrator and your organization has [Office 365 Threat Investigation and Response capabilities](office-365-ti.md), you can use Attack Simulator to run realistic attack scenarios in your organization. This can help you identify and find vulnerable users before a real attack impacts your bottom line. Read this article to learn more.
 
 > [!IMPORTANT]
 > Office 365 Advanced Threat Protection and Threat Investigation and Response (formerly known as Threat Intelligence) are part of Office 365 Advanced Threat Protection Plan 2, along with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
@@ -32,7 +32,7 @@ Three kinds of attack simulations are currently available:
 - [Password-spray attack](#password-spray-attack)
 - [Brute-force password attack](#brute-force-password-attack)
     
-For an attack to be successfully launched, make sure that the account you are using to run simulated attacks is using multi-factor authentication. In addition, you must be an Office 365 global administrator or a security administrator. (To learn more about roles and permissions, see [Permissions in the Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).)
+For an attack to be successfully launched, make sure that the account you are using to run simulated attacks is using multi-factor authentication. In addition, you must be an Office 365 global administrator. (To learn more about roles and permissions, see [Permissions in the Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).)
     
 To access Attack Simulator, in the Security &amp; Compliance Center, choose **Threat management** \> **Attack simulator**.
   
@@ -42,9 +42,9 @@ Make sure that you and your organization meet the following requirements for Att
       
 - **Your organization's email is hosted in Exchange Online**. (Attack Simulator is not available for on-premises email servers.)
     
-- **You are an Office 365 global administrator or security administrator**
+- **You are an Office 365 global administrator**
     
-- **[Multi-factor authentication/Conditional Access](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) is turned on, for at least the Office 365 global administrator account and security administrators**. (Ideally, multi-factor authentication/conditional access is turned on for all users in your organization.)
+- **[Multi-factor authentication/Conditional Access](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) is turned on, for at least the Office 365 global administrator account**. (Ideally, multi-factor authentication/conditional access is turned on for all users in your organization.)
  
 - **Your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md)**, with Attack Simulator visible in the Security &amp; Compliance Center (go to **Threat management** \> **Attack simulator**)<br/>![Threat management - Attack Simulator](media/ThreatMgmt-AttackSimulator.png)
 
